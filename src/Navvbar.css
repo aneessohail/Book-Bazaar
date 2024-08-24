@@ -1,0 +1,38 @@
+
+
+.navbar-custom {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); 
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand:hover {
+    color: #fffae3; 
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(27, 166, 159, 0.2); 
+    color: #fffae3;
+  }
+  
+  .nav-link.active {
+    background-color: #fff;
+    color: #ff7e5f; 
+    font-weight: bold;
+  }
+  

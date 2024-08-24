@@ -1,0 +1,43 @@
+
+
+.order-page {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-header {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.order-list {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.order-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.order-item h5 {
+    color: #007bff;
+}
+
+.order-item p {
+    color: #6c757d;
+    margin: 0;
+}
+
+.order-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
